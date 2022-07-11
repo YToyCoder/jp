@@ -394,7 +394,7 @@ class JClsFile:
 if __name__ == "__main__":
   # print(read("ACClazz.bn"))
   # print(getType("01"))
-  bs = list(read("ACClazz.bn"))
+  bs = list(read("resources/ACClazz.bn"))
   st = []
   jf = handleIt(bs)
   print(jf)
