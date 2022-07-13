@@ -5,3 +5,6 @@
 build
 .idea
 resources
+.vscode
+.metals
+.bloop
