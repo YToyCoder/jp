@@ -156,3 +156,22 @@ Constant pool:
 SourceFile: "Varargs.java"
 
 ```
+
+修改`varargsFn`为如下:
+
+```java
+
+  public static void varargsFn(int i, String ...str){
+    System.out.printf("i is %d , str length is %d\n", i, str.length);
+  }
+
+```
+运行结果如下：
+
+```java
+
+i is 0 , str length is 0
+i is 1 , str length is 1
+i is 2 , str length is 2
+
+```
