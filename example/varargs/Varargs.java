@@ -1,3 +1,4 @@
+package varargs;
 
 public class Varargs {
 
@@ -7,6 +8,9 @@ public class Varargs {
     varargsFn(2, "1", "2");
   }
 
-  public static varargsFn(int i, String ...str){
+  public static void varargsFn(int i, String ...str){
+  }
+
+  public static void otherArrayFn(int i, String[] str){
   }
 }
